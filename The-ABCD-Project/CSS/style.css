@@ -1,0 +1,98 @@
+
+
+body{
+    background-color: grey;
+
+    display: grid;
+
+    grid-template-rows: 100px 500px;
+
+}
+
+.outputSection{
+    border: 1px solid blue;
+    display: grid;
+
+    grid-template-columns: 505px 300px 505px;
+
+}
+
+.alphabetSection{
+    border: 1px solid red;
+}
+
+.forSection{
+    border: 1px solid green;
+    font-size: 50px;
+    margin-top: 200px;
+    margin-left: 100px;
+    display: none;
+}
+
+.imageSection{
+    border: 1px solid pink;
+}
+
+.headingSection{
+    border: 1px solid red;
+    color: black;
+    font-size: 25px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.a{
+    background-image: url('Images/Alphabet-Images/a.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.a-img{
+    background-image: url('Images/Item-Images/apple.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 500px 500px;
+}
+
+.b{
+    background-image: url('Images/Alphabet-Images/b.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.b-img{
+    background-image: url('Images/Item-Images/ball.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 500px 500px;
+}
+
+.c{
+    background-image: url('Images/Alphabet-Images/c.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.c-img{
+    background-image: url('Images/Item-Images/cat.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 500px 500px;
+}
+
+.d{
+    background-image: url('Images/Alphabet-Images/d.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.d-img{
+    background-image: url('Images/Item-Images/dog.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 500px 500px;
+}
+
+.esc{
+    background-image: none;
+}
