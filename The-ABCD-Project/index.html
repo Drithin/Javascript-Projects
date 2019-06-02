@@ -9,14 +9,27 @@
     <!-- CSS External File -->
     <link rel="stylesheet" href="CSS/style.css">
 
+    <!-- Howler JS CDN -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/howler/2.1.2/howler.core.min.js"></script>
+
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css?family=Muli&display=swap" rel="stylesheet">
+
    
 </head>
 <body>
+
+        <div id="particles-js"></div>
+    
+
     <div class="headingSection">
             <div>
-                    <p>Press any Alphabet on keyboard</p>
+                    <h1>Press any Alphabet between A & I on keyboard</h1>
+                    <h2>Press Esc to clear</h2>
                  </div>
     </div>
+
+   
 
     <div class="outputSection" id="outputSection" onkeypress="myFunction(event)">
         <div class="alphabetSection"></div>
@@ -24,7 +37,10 @@
         <div class="imageSection"></div>
     </div>
     
+   
 
+    <script type="text/javascript" src="JS/lib/particles.js-2.0.0/particles.js"></script>
+    <script type="text/javascript" src="JS/lib/particles.js-2.0.0/demo/js/app.js"></script>
 </body>
 
 <!-- jQuery Google CDN -->
